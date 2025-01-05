@@ -181,4 +181,8 @@ describe('Central de Atendimento ao Cliente TAT', function() {
   // ---= AULA 08 =---
 
   // Scripts criados no arquivo package.json ("cy:open:mobile" e "test:mobile")
+
+  // ---= AULA 09 =---
+
+  // Documentação da automação.
 })
