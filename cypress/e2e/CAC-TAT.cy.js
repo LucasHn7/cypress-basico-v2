@@ -177,4 +177,8 @@ describe('Central de Atendimento ao Cliente TAT', function() {
       .url()
       .should('contains', '/src/privacy.html')
    })
+
+  // ---= AULA 08 =---
+
+  // Scripts criados no arquivo package.json ("cy:open:mobile" e "test:mobile")
 })
