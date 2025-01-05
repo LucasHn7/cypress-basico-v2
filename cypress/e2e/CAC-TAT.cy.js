@@ -184,5 +184,5 @@ describe('Central de Atendimento ao Cliente TAT', function() {
 
   // ---= AULA 09 =---
 
-  // Documentação da automação.
+  // Documentação da automação feito no arquivo 'README.md'.
 })
