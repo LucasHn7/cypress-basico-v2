@@ -2,11 +2,11 @@ name: End-to-end tests 🧪
 on: [push]                                                  # Irá rodar esse teste sempre que houver qualquer push no repositório.
 jobs:
   cypress-run:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout
-        uses: actions/checkout@v2                           # Essas duas linhas são para baixar no workspace do gitHub Actions o código do projeto.
+        uses: actions/checkout@v4                           # Essas duas linhas são para baixar no workspace do gitHub Actions o código do projeto.
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
       - name: Cypress run
-        uses: cypress-io/github-action@v2                   # Essas duas linhas são para rodar o cypress com a imagem 'cypress-io/github-action@v2'
+        uses: cypress-io/github-action@v6                   # Essas duas linhas são para rodar o cypress com a imagem 'cypress-io/github-action@v2'
